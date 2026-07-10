@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lauren Lee</title>
+
+  <style>
+    :root {
+      --cream: #f7f1e8;
+      --yellow: #f2d85b;
+      --orange: #ff5a2f;
+      --charcoal: #25231f;
+      --soft: #756c61;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--charcoal);
+      font-family: Arial, sans-serif;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 38px 22px 70px;
+    }
+
+    .hero {
+      min-height: 86vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .tiny {
+      text-transform: uppercase;
+      letter-spacing: .18em;
+      font-size: 12px;
+      color: var(--soft);
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(70px, 19vw, 138px);
+      line-height: .82;
+      letter-spacing: -0.08em;
+      margin: 0;
+    }
+
+    .subtitle {
+      margin-top: 28px;
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-size: clamp(30px, 8vw, 58px);
+      line-height: .95;
+      color: var(--yellow);
+      max-width: 620px;
+    }
+
+    .intro {
+      margin-top: 32px;
+      font-size: 21px;
+      line-height: 1.35;
+      color: var(--soft);
+      max-width: 560px;
+    }
+
+    .arrow {
+      margin-top: 42px;
+      font-size: 34px;
+      color: var(--orange);
+    }
+
+    .section {
+      padding: 52px 0;
+      border-top: 1px solid rgba(37, 35, 31, .18);
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      font-size: clamp(42px, 10vw, 78px);
+      line-height: .9;
+      letter-spacing: -0.06em;
+      margin: 0 0 18px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.45;
+      color: var(--soft);
+      margin: 0 0 24px;
+      max-width: 570px;
+    }
+
+    a.button {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--charcoal);
+      border: 1px solid var(--charcoal);
+      border-radius: 999px;
+      padding: 13px 22px;
+      font-size: 15px;
+      transition: all .2s ease;
+    }
+
+    a.button:hover {
+      background: var(--yellow);
+      transform: translateY(-2px);
+    }
+
+    .note {
+      font-family: Georgia, serif;
+      font-style: italic;
+      color: var(--orange);
+    }
+
+    .closing {
+      padding: 92px 0 34px;
+    }
+
+    .closing h2 {
+      color: var(--orange);
+    }
+
+    footer {
+      color: var(--soft);
+      font-size: 13px;
+      padding-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+
+    <section class="hero">
+      <div class="tiny">Building work I love</div>
+
+      <h1>Lauren<br>Lee</h1>
+
+      <div class="subtitle">
+        Following the threads of building work I love.
+      </div>
+
+      <p class="intro">
+        For the people who can no longer ignore the creative ideas that keep finding them.
+      </p>
+
+      <div class="arrow">↓</div>
+    </section>
+
+    <section class="section">
+      <h2>Continue</h2>
+      <p>Conversations on intuition, creativity, and being human.</p>
+      <a class="button" href="#" target="_blank">Listen in</a>
+    </section>
+
+    <section class="section">
+      <h2>Intuitive Readings</h2>
+      <p>
+        Grounded one-on-one sessions. No predicting. No weird pressure.
+        Just connection, conversation, and whatever unfolds.
+      </p>
+      <a class="button" href="#" target="_blank">Book a session</a>
+    </section>
+
+    <section class="section">
+      <h2>The Art of Mindfulness for Creatives</h2>
+      <p>
+        A gentle course for people learning to trust themselves and build work they love.
+      </p>
+      <a class="button" href="#" target="_blank">Join the waitlist</a>
+    </section>
+
+    <section class="section">
+      <h2>Field Notes</h2>
+      <p>
+        Books. Ideas. Observations. The threads I can’t stop following lately.
+      </p>
+      <a class="button" href="#" target="_blank">Read along</a>
+    </section>
+
+    <section class="section">
+      <h2>Say hello</h2>
+      <p>
+        Podcast guests. Readings. Collaborations. Questions.
+        Or just a little hello.
+      </p>
+      <a class="button" href="mailto:leelaure@gmail.com">Email me</a>
+    </section>
+
+    <section class="closing">
+      <h2>It’s your turn.</h2>
+      <p class="note">To trust the thing that keeps finding you.</p>
+    </section>
+
+    <footer>
+      © Lauren Lee
+    </footer>
+
+  </main>
+</body>
+</html>
